@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>نعمة</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #f7f7f7;
+      direction: rtl;
+      text-align: center;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #f3e8ff, #fdecef);
+      padding: 90px 20px;
+    }
+
+    .profile {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+      font-size: 18px;
+    }
+
+    .links a {
+      display: block;
+      max-width: 280px;
+      margin: 14px auto;
+      padding: 14px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      border-radius: 14px;
+      font-weight: 600;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="hero">
+    <img src="PROFAIL.JPT2" class="profile" alt="PROFAIL.JPT">
+    <h1>ن'محمدنور</h1>
+    <p>صانعة محتوى لايف ستايل فلوقات </p>
+  </div>
+
+  <div class="links">
+    <a href="https://www.instagram.com/noxx.96/?igsh=MTZiOGRrYTZ4ZWl3bw#">Instagram</a>
+    <a href="https://www.youtube.com/@Niema.96">YouTube</a>
+    <a href=https://www.snapchat.com/@nlovly1996?invite_id=B9nf8-As&locale=en_SA%40calendar%3Dgregorian&share_id=pIpjvd1aTfin9WRAKEAKfQ&sid=a9c132d0894d43fe9ba9d64efc1af5ec">Snapchat</a>
+ <a href="mailto:contact@yourname.com">CONTACT </a>
+  </di
+
+  
+
+</body>
+</html>

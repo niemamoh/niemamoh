@@ -45,34 +45,48 @@
     }
 
     /* ===== صندوق الروابط ===== */
- .links-box{
-  width: 100%;
-  background: var(--hero-bg); /* نفس لون الهيرو */
-  padding: 40px 20px 60px;
-  border-radius: 0;          /* بدون زوايا */
-  text-align: left;
+ /* الحاوية العامة للروابط */
+.links-box {
+  background: #2a2a2a;
+  width: 95%;
+  max-width: 520px;   /* كبير وواضح */
+  margin: 50px auto;  /* يخليه بالنص */
+  padding: 35px 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
 }
-.links-box{
-  border-top: 1px solid #3a3a3a;
+
+/* كل رابط */
+.link-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  text-decoration: none;
 }
-    .links-box h2{
-      margin-bottom:18px;
-      font-size:22px;
-      text-align:left;
-    }
 
-    .link-row{
-      display:flex;
-      align-items:center;
-      gap:16px;
-      padding:14px 0;
-      text-decoration:none;
-      color:#fff;
-    }
+/* آخر رابط بدون خط */
+.link-row:last-child {
+  border-bottom: none;
+}
 
-    .link-row i{
-      font-size:34px;
-    }
+/* النص */
+.link-row .title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.link-row .url {
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* الأيقونة */
+.link-row i {
+  font-size: 26px;
+}
 
     .title{
       font-size:18px;

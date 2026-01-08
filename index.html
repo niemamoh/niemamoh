@@ -4,114 +4,144 @@
   <meta charset="UTF-8">
   <title>Niema Mohamed</title>
 
+  <!-- أيقونات Font Awesome -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
-     body {
-  margin: 0;
-  background: #000;
-  direction: rtl;
-  text-align: center;
-}
-
-    .hero {
-  background: #8e8e8e;
-  padding: 25px 20px; /* ارتفاع متوازن */
-}
-
-    .profile {
-      width: 140px;
-      height: 140px;
-      border-radius: 50%;
-      object-fit: cover;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-      margin-bottom: 20px;
+    body{
+      margin:0;
+      background:#000;
+      direction:rtl;
+      text-align:center;
+      font-family: Arial, sans-serif;
     }
 
-    h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
+    /* ===== الهيرو ===== */
+    .hero{
+      background:#d9d9d9;
+      padding:60px 20px 40px;
     }
 
-    p {
-      color: #000;
-      font-size: 30px;
+    .logo{
+      width:110px;
+      height:110px;
+      border-radius:50%;
+      object-fit:cover;
+      margin-bottom:16px;
     }
 
-    .links a {
-      display: block;
-      max-width: 280px;
-      margin: 14px auto;
-      padding: 14px;
-      background:grey;
-      color: black;
-      text-decoration: none;
-      border-radius: 14px;
-      font-weight: 600;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    .hero h1{
+      margin:0;
+      color:#000;
+      font-size:32px;
+      font-weight:700;
     }
+
+    .hero p{
+      margin-top:10px;
+      color:#000;
+      font-size:18px;
+      font-weight:600;
+    }
+
+    /* ===== صندوق الروابط ===== */
+    .links-box{
+      background:#1f1f1f;
+      border-radius:20px;
+      padding:22px;
+      max-width:420px;
+      margin:30px auto;
+      color:#fff;
+    }
+
+    .links-box h2{
+      margin-bottom:18px;
+      font-size:22px;
+      text-align:left;
+    }
+
+    .link-row{
+      display:flex;
+      align-items:center;
+      gap:16px;
+      padding:14px 0;
+      text-decoration:none;
+      color:#fff;
+    }
+
+    .link-row i{
+      font-size:34px;
+    }
+
+    .title{
+      font-size:18px;
+      font-weight:600;
+      display:block;
+      text-align:left;
+    }
+
+    .url{
+      font-size:14px;
+      color:#aaa;
+      display:block;
+      text-align:left;
+    }
+
+    .instagram{color:#E1306C;}
+    .snapchat{color:#FFFC00;}
+    .youtube{color:#FF0000;}
+    .email{color:#4da6ff;}
   </style>
 </head>
 
 <body>
 
+  <!-- الهيرو -->
   <div class="hero">
-    <img src="PROFAIL.JPT" class="profile" alt="PROFAIL.">
-<h1>Niema Mohamed</h1>    <p> 🎥 صانعة محتوى لايف ستايل وفلوڤات </p>
+    <!-- غيري اسم الصورة لو حابة -->
+    <img src="profile.jpg" class="logo" alt="Logo">
+
+    <h1>Niema Mohamed</h1>
+    <p>صانعة محتوى لايف ستايل وفلوڤات 🎥</p>
   </div>
 
-<div class="links">
-  <a href="https://www.instagram.com/noxx.96" target="_blank">
-    <i class="fa-brands fa-instagram"></i>https://www.instagram.com/noxx.96/?igsh=MTZiOGRrYTZ4ZWl3bw#
-  </a>
+  <!-- الروابط -->
+  <div class="links-box">
+    <h2>Links</h2>
 
-  <a href="#" target="_blank">
-    <i class="fa-brands fa-youtube"></i>https://youtube.com/@niema.96?si=Y1MGLyg-9dWg1ZVb
-  </a>
+    <a class="link-row" href="https://www.instagram.com/noxx.96" target="_blank">
+      <i class="fa-brands fa-instagram instagram"></i>
+      <div>
+        <span class="title">Instagram</span>
+        <span class="url">instagram.com/noxx.96</span>
+      </div>
+    </a>
 
-  <a href="https://snapchat.com/t/Ty3hK5x9" target="_blank">
-    <i class="fa-brands fa-snapchat"></i>https://snapchat.com/t/JwpZdhMq
-  </a>
+    <a class="link-row" href="https://snapchat.com/t/JwpZdhMq" target="_blank">
+      <i class="fa-brands fa-snapchat snapchat"></i>
+      <div>
+        <span class="title">Snapchat</span>
+        <span class="url">snapchat.com</span>
+      </div>
+    </a>
 
-  <a href="mailto:neimma@proton.me">
-    <i class="fa-solid fa-envelope"></i> Email
-  </a>
-</div>
+    <a class="link-row" href="https://youtube.com/@niema.96" target="_blank">
+      <i class="fa-brands fa-youtube youtube"></i>
+      <div>
+        <span class="title">YouTube</span>
+        <span class="url">youtube.com/@niema.96</span>
+      </div>
+    </a>
 
+    <a class="link-row" href="mailto:niemma@outlook.com">
+      <i class="fa-solid fa-envelope email"></i>
+      <div>
+        <span class="title">Email</span>
+        <span class="url">niemma@proton.me</span>
+      </div>
+    </a>
   </div>
 
 </body>
 </html>
-<div class="links-card">
-  <h2>Links</h2>
-
-  <a class="link-item" href="https://www.instagram.com/noxx.96?igsh=MTZiOGRrYTZ4ZWl3bw%3D%3D&utm_source=qr" target="_blank">
-    <i class="fa-brands fa-instagram instagram"></i>
-    <div>
-      <div class="title">Instagram</div>
-      <div class="url">instagram.com/noxx.96</div>
-    </div>
-  </a>
-
-  <a class="link-item" href="https://youtube.com/@niema.96?si=Y1MGLyg-9dWg1ZVb" target="_blank">
-    <i class="fa-brands fa-youtube youtube"></i>
-    <div>
-      <div class="title">YouTube</div>
-      <div class="url">youtube.com/@niema.96</div>
-    </div>
-  </a>
-
-  <a class="link-item" href="https://snapchat.com/t/JwpZdhMq" target="_blank">
-    <i class="fa-brands fa-snapchat snapchat"></i>
-    <div>
-      <div class="title">Snapchat</div>
-      <div class="url">snapchat.com/t/JwpZdhMq</div>
-    </div>
-  </a>
-
-  <a class="link-item" href="mailto:niemma@outlook.com">
-    <i class="fa-solid fa-envelope email"></i>
-    <div>
-      <div class="title">Email</div>
-      <div class="url">niemma@outlook.com</div>
-    </div>
-  </a>
-</div>

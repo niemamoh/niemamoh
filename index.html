@@ -7,155 +7,141 @@
   <!-- أيقونات Font Awesome -->
   <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
   <style>
     body{
       margin:0;
       background:#000;
       direction:rtl;
       text-align:center;
-      font-family:font-family: 'Bungee Outline', cursive;
+      font-family: Arial, sans-serif;
     }
 
     /* ===== الهيرو ===== */
     .hero{
-      background:#1f1f1f;
-      padding:120px 90px 80px;
+      background:#d9d9d9;
+      padding:60px 20px 40px;
     }
-.logo {
-  width:250px;        /* صغر/كبر الحجم من هنا */
-  height:250px;
-  border-radius: 50%; /* هذا اللي يخليها دائرية */
-  object-fit: cover;  /* يمنع التشويه */
-  display: block;
-  margin: 0 auto 12px;
-}
+
+    .logo{
+      width:110px;
+      height:110px;
+      border-radius:50%;
+      object-fit:cover;
+      margin-bottom:16px;
+    }
+
     .hero h1{
       margin:0;
-      color:#ffffff;
-      font-size:46px;
+      color:#000;
+      font-size:32px;
       font-weight:700;
     }
 
     .hero p{
       margin-top:10px;
-      color:#ffffff;
-      font-size:30px;
+      color:#000;
+      font-size:18px;
       font-weight:600;
     }
-.hero p {
-  font-family: 'Inter', sans-serif;
-}
-links-box {
-/* Social Icons 🔥 */
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 30px;
-}
 
-.social-icons a {
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #1a1a1a;
-  border-radius: 50%;
-  font-size: 26px;
-  text-decoration: none;
-  transition: 0.3s;
-}
+    /* ===== صندوق الروابط ===== */
+    .links-box{
+      background:#1f1f1f;
+      border-radius:20px;
+      padding:22px;
+      max-width:420px;
+      margin:30px auto;
+      color:#fff;
+    }
 
-/* Hover */
-.social-icons a:hover {
-  transform: scale(1.3);
-  background: #333;
-}
+    .links-box h2{
+      margin-bottom:18px;
+      font-size:22px;
+      text-align:left;
+    }
 
-/* Animation دخول */
-.social-icons a {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeUp 0.6s forwards;
-}
+    .link-row{
+      display:flex;
+      align-items:center;
+      gap:16px;
+      padding:14px 0;
+      text-decoration:none;
+      color:#fff;
+    }
 
-.social-icons a:nth-child(1) { animation-delay: 0.1s; }
-.social-icons a:nth-child(2) { animation-delay: 0.2s; }
-.social-icons a:nth-child(3) { animation-delay: 0.3s; }
-.social-icons a:nth-child(4) { animation-delay: 0.4s; }
+    .link-row i{
+      font-size:34px;
+    }
 
-@keyframes fadeUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+    .title{
+      font-size:18px;
+      font-weight:600;
+      display:block;
+      text-align:left;
+    }
+
+    .url{
+      font-size:14px;
+      color:#aaa;
+      display:block;
+      text-align:left;
+    }
+
+    .instagram{color:#E1306C;}
+    .snapchat{color:#FFFC00;}
+    .youtube{color:#FF0000;}
+    .email{color:#4da6ff;}
+  </style>
+</head>
+
+<body>
 
   <!-- الهيرو -->
   <div class="hero">
     <!-- غيري اسم الصورة لو حابة -->
-  <img src="profile.png" class="logo" alt="Profile">
+    <img src="profile.jpg" class="logo" alt="Logo">
 
-    <h1 class="name">Niema Mohamed</h1>
-   <p class="tagline">
-  صانعة محتوى لايف ستايل وفلوقات <br>
-  <span class="en">Lifestyle & Vlog Content Creator</span>
-</p>
+    <h1>Niema Mohamed</h1>
+    <p>صانعة محتوى لايف ستايل وفلوڤات 🎥</p>
   </div>
-<div class="links-card">
-  <h2>Links</h2>
-<div class="social-icons">
 
-    
-</div>
+  <!-- الروابط -->
+  <div class="links-box">
+    <h2>Links</h2>
+
+    <a class="link-row" href="https://www.instagram.com/noxx.96" target="_blank">
+      <i class="fa-brands fa-instagram instagram"></i>
+      <div>
+        <span class="title">Instagram</span>
+        <span class="url">instagram.com/noxx.96</span>
+      </div>
+    </a>
+
+    <a class="link-row" href="https://snapchat.com/t/JwpZdhMq" target="_blank">
+      <i class="fa-brands fa-snapchat snapchat"></i>
+      <div>
+        <span class="title">Snapchat</span>
+        <span class="url">snapchat.com</span>
+      </div>
+    </a>
+
+    <a class="link-row" href="https://youtube.com/@niema.96" target="_blank">
+      <i class="fa-brands fa-youtube youtube"></i>
+      <div>
+        <span class="title">YouTube</span>
+        <span class="url">youtube.com/@niema.96</span>
+      </div>
+    </a>
+
+    <a class="link-row" href="mailto:niemma@outlook.com">
+      <i class="fa-solid fa-envelope email"></i>
+      <div>
+        <span class="title">Email</span>
+        <span class="url">niemma@outlook.com</span>
+      </div>
+    </a>
+  </div>
 
 </body>
-</html>
-/* Social Icons 🔥 */
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.social-icons a {
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #1a1a1a;
-  border-radius: 50%;
-  font-size: 26px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-/* Hover */
-.social-icons a:hover {
-  transform: scale(1.3);
-  background: #333;
-}
-
-/* Animation دخول */
-.social-icons a {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeUp 0.6s forwards;
-}
-
-.social-icons a:nth-child(1) { animation-delay: 0.1s; }
-.social-icons a:nth-child(2) { animation-delay: 0.2s; }
-.social-icons a:nth-child(3) { animation-delay: 0.3s; }
-.social-icons a:nth-child(4) { animation-delay: 0.4s; }
-
-@keyframes fadeUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+</html
